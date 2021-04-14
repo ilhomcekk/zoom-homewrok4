@@ -1,0 +1,159 @@
+:root{
+    --white: #fff;
+    --darkblue: #091E42;
+    --blue: #0052CC;
+}
+body{
+    color: var(--darkblue);
+}
+@keyframes test {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(5px);
+    }
+}
+a{
+    color: var(--blue);
+}
+button:active{
+    transform: scale(0.98) !important;
+}
+#navbar-top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F5F7;
+    padding: 0.5rem 1rem;
+    word-spacing: 1px;
+}
+#navbar-body{
+    background-color: #F4F5F7;
+    padding: 0.5rem 0;
+}
+#navbar-body .nav-item a{
+    padding: 4px 1rem !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+#buy a:hover, .account:hover{
+    background-color: #e9e9e9;
+    border-radius: 4px !important;
+}
+.fa-search:hover{
+    background-color: #e9e9e9;
+}
+#navbar-body .nav-item:hover{
+    background-color: #e9e9e9;
+    border-radius: 4px !important;
+}
+#navbar-body .navbar-brand img{
+    width: 193px;
+    height: 23.9px;
+    margin-bottom: 0.4rem;
+}
+#navbar-aside{
+    box-shadow: 0 5px 5px #e2e2e2;
+}
+#navbar-aside .navbar-expand-lg{
+    padding: 0;
+}
+#navbar-aside .navbar-brand img{
+    width: 220px;
+    height: 30px;
+}
+#navbar-aside .nav-link{
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 !important;
+    margin: 0 1rem !important;
+}
+#navbar-aside #notborder{
+    margin-bottom: 5px;
+}
+#navbar-aside .nav-link:hover{
+    box-shadow: inset 0 -3px #e1e1e1;
+}
+#navbar-aside button:last-child{
+    background-color: var(--white);
+}
+#navbar-aside button:last-child:focus{
+    outline: none !important;
+}
+#navbar-aside button:last-child:hover{
+    background-color: #f1f1f1;
+}
+#body-center a:hover .fa-arrow-right{
+    animation: test 1s linear 1;
+}
+#body-bottom button{
+    background-color: #fff;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-weight: 500;
+    width: max-content;
+}
+#body-bottom button:hover{
+    background-color: #e1e1e1;
+}
+#body-bottom button:active{
+    background-color: lightblue;
+    transform: scale(0.98);
+}
+#brand button:hover{
+    box-shadow: inset 1px 1px 50px #e1e1e1;
+}
+#aside-top .card{
+    border: none;
+}
+#aside-top .card-body a:hover{
+    text-decoration: underline;
+}
+#aside-top .card-body a:hover i{
+    animation: test 1s linear 1;
+}
+#arrow:hover i{
+    animation: test 1s linear 1;
+}
+#marketplace{
+    background: url(./images/marketplace\ section-update.png) no-repeat;
+    height: 270px;
+    width: 100%;
+    background-position: center;
+}
+#aside-bottom{
+    background-color: #e1e1e1;
+    padding: 5rem auto  ;
+}
+.link1{
+    background-color: #000;
+}
+#aside-bottom .box-white{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#test:hover i{
+    animation: test 1s linear 1;
+}
+#plan .box-light button{
+    background-color: var(--darkblue);
+}
+#plan .box-white button{
+    background-color: #fff;
+    border: 1px solid var(--blue);
+    color: var(--blue) !important;
+}
+#plan .box-white button:hover{
+    background-color: #f6f6f6;
+}
+#footer-bottom .footer-link a{
+    color: var(--darkblue);
+}
